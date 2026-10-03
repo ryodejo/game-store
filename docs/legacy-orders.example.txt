@@ -1,0 +1,2 @@
+User 3 bought game 2
+User 3 bought game 3

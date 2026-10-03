@@ -1,0 +1,13 @@
+/target/
+*.class
+/.local-db/
+/.tools/
+/legacy/
+.env
+.env.*
+!.env.example
+*.log
+/.idea/
+*.iml
+/orders.txt
+*.local.ps1

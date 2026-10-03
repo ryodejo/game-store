@@ -1,0 +1,48 @@
+{
+  "java.server.launchMode": "Standard",
+  "java.import.maven.enabled": true,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.project.sourcePaths": [
+    "src/main/java",
+    "src/test/java"
+  ],
+  "java.project.outputPath": "target/vscode-classes",
+  "java.import.exclusions": [
+    "**/node_modules/**",
+    "**/.metadata/**",
+    "**/archetype-resources/**",
+    "**/META-INF/maven/**",
+    "**/legacy/**",
+    "**/.local-db/**",
+    "**/.tools/**"
+  ],
+  "java.project.resourceFilters": [
+    "node_modules",
+    "\\.git",
+    "legacy",
+    "\\.local-db",
+    "\\.tools"
+  ],
+  "files.associations": {
+    "**/legacy/**/*.java": "plaintext"
+  },
+  "files.watcherExclude": {
+    "**/legacy/**": true,
+    "**/.local-db/**": true,
+    "**/.tools/**": true
+  },
+  "search.exclude": {
+    "**/legacy/**": true,
+    "**/.local-db/**": true,
+    "**/.tools/**": true
+  },
+  "maven.executable.preferMavenWrapper": true,
+  "maven.excludedFolders": [
+    "**/.*",
+    "**/node_modules",
+    "**/target",
+    "**/bin",
+    "**/archetype-resources",
+    "**/legacy"
+  ]
+}
